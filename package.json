@@ -21,10 +21,15 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "prettier": "3.7.4",
+    "vite": "^7.3.0",
     "vitepress": "^2.0.0-alpha.15"
   },
   "lint-staged": {
     "*.{vue,js,ts,css,md}": "prettier --write",
     "*.{vue,js,ts}": "eslint --cache --fix"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "tailwindcss": "^4.1.18"
   }
 }
