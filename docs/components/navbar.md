@@ -11,8 +11,16 @@ import Navbar from '../../src/components/Navbar.vue'
 ## Contoh
 
 ```vue
-<Navbar brand="Gurun Kit" :menus="[{ id: 'about', name: 'About' }, { id: 'contact', name: 'Contact' }, { id: 'Blog', name: 'Blog' }]" />
+<Navbar
+  brand="Gurun Kit"
+  :menus="[
+    { id: 'about', name: 'About' },
+    { id: 'contact', name: 'Contact' },
+    { id: 'Blog', name: 'Blog' },
+  ]"
+/>
 ```
 
+::: raw
 <Navbar brand="Gurun Kit" :menus="[{ id: 'about', name: 'About' }, { id: 'contact', name: 'Contact' }, { id: 'Blog', name: 'Blog' }]" />
-
+:::

@@ -3,13 +3,13 @@ defineProps({
   brand: String,
   menus: {
     type: Array,
-    default: () => []
-  }
-})
+    default: () => [],
+  },
+});
 </script>
 
 <template>
-  <nav>
+  <nav class="flex items-center justify-between">
     <a v-if="brand" href="">{{ brand }}</a>
     <div>
       <a v-for="menu in menus" href="" :key="menu.id">{{ menu.name }}</a>
